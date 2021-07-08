@@ -5,7 +5,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "test_rg" {
   name     = "rg-test-vm-tf-deploy"
-  location = "West Europe"
+  location = "East US"
 }
 
 resource "azurerm_virtual_network" "vnet" {
